@@ -12,7 +12,6 @@ local sync_xmlns         = "http://listeninghall.com/ns/song#sync";
 local skip_xmlns         = "http://listeninghall.com/ns/song#skip";
 local playlist_xmlns     = "http://listeninghall.com/ns/playlist";
 
-
 -- Helper function to get playlist from room object. 
 -- If playlist does not exist, create it. 
 function get_playlist( room ) 
